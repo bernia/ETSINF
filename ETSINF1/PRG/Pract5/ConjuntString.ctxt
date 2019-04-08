@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ConjuntString()
+comment0.text=\n\ Crea\ un\ conjunt\ buit.\n
+comment1.params=s
+comment1.target=void\ inserir(java.lang.String)
+comment1.text=\n\ Insereix\ s\ en\ el\ conjunt.\n\ Si\ s\ ja\ pertany\ al\ conjunt,\ aquest\ no\ canvia.\n\n\ @param\ s\ String.\ Element\ que\ s'insereix\ en\ el\ conjunt.\n
+comment2.params=s
+comment2.target=boolean\ pertany(java.lang.String)
+comment2.text=\n\ Comprova\ si\ s\ pertany\ al\ conjunt.\n\n\ @param\ s\ String.\n\ @return\ true\ sii\ s\ pertany\ al\ conjunt.\n
+comment3.params=s
+comment3.target=void\ eliminar(java.lang.String)
+comment3.text=\n\ Elimina\ s\ del\ conjunt.\n\ Si\ s\ no\ pertany\ al\ conjunt,\ el\ conjunt\ no\ canvia.\n\n\ @param\ s\ String.\n
+comment4.params=
+comment4.target=int\ talla()
+comment4.text=\n\ Retorna\ la\ talla\ o\ cardinal\ del\ conjunt.\n\ @return\ la\ talla\ del\ conjunt.\n
+comment5.params=altre
+comment5.target=ConjuntString\ interseccio(ConjuntString)
+comment5.text=\n\ Retorna\ el\ conjunt\ interseccio\ del\ conjunt\ i\ d'altre.\n\n\ @param\ altre\ ConjuntString.\n\ @return\ el\ conjunt\ interseccio.\n
+comment6.params=altre
+comment6.target=ConjuntString\ unio(ConjuntString)
+comment6.text=\n\ Retorna\ el\ conjunt\ unio\ del\ conjunt\ i\ d'altre.\n\n\ @param\ altre\ ConjuntString.\n\ @return\ el\ conjunt\ unio.\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\n\ Retorna\ el\ llistat\ de\ les\ Strings\ en\ el\ conjunt,\ en\ ordre\n\ lexicografic,\ i\ separats\ per\ canvis\ de\ linia.\n\ Si\ el\ conjunt\ es\ buit\ retorna\ "",\ la\ String\ buida.\n\n\ @return\ llistat\ dels\ elements\ del\ conjunt.\n
+numComments=8

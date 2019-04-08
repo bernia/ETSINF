@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ParseString()
+comment0.text=\n\ Crea\ un\ ParseString\ amb\ la\ definicio\ de\ separadors\n\ donats\ per\ defecte\ en\ ParseString.SEPARADORS.\n
+comment1.params=sep
+comment1.target=ParseString(java.lang.String)
+comment1.text=\n\ Crea\ un\ ParseString\ amb\ la\ definicio\ de\ separadors\n\ donats\ en\ sep.\n\ @param\ sep\ String.\ Definicio\ de\ separadors\ a\ fer\ servir.\n
+comment2.params=s
+comment2.target=java.lang.String[]\ separar(java.lang.String)
+comment2.text=\n\ Torna\ un\ array\ amb\ les\ paraules\ separades\ \n\ segons\ els\ separadors\ definits\ en\ la\ classe.\n\ @param\ s\ String.\ La\ cadena\ a\ separar-se.\n\ @return\ el\ array\ amb\ les\ paraules\ separades.\n
+numComments=3

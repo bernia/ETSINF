@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\n\ Arguments\:\n\ 1)\ "-u"\ o\ "-i"\ per\ a\ unio\ o\ interseccio\ respectivament.\n\ 2)\ Fitxer\ de\ text\ 1\ d'entrada.\n\ 3)\ Fitxer\ de\ text\ 2\ d'entrada.\n\ \n\ Resultat\ en\ l'eixida\ estandard.\n
+comment1.params=nF1\ nF2
+comment1.target=void\ unio(java.lang.String,\ java.lang.String)
+comment1.text=\n\ Escriu\ en\ l'eixida\ estandard\ el\ resultat\ de\ la\ unio\n\ dels\ conjunts\ de\ paraules\ dels\ fitxers\ de\ text,\ els\n\ noms\ dels\ quals\ estan\ en,\ nF1\ i\ nF2.\n\ @param\ nF1\ String,\ nom\ del\ primer\ fitxer.\n\ @param\ nF2\ String,\ nom\ del\ segon\ fitxer.\n
+comment2.params=nF1\ nF2
+comment2.target=void\ interseccio(java.lang.String,\ java.lang.String)
+comment2.text=\n\ Escriu\ en\ l'eixida\ estandard\ el\ resultat\ de\ la\ interseccio\n\ dels\ conjunts\ de\ paraules\ dels\ fitxers\ de\ text\ els\n\ noms\ dels\ quals\ estan\ en\ nF1\ i\ nF2.\n\ @param\ nF1\ String,\ nom\ del\ primer\ fitxer.\n\ @param\ nF2\ String,\ nom\ del\ segon\ fitxer.\n
+comment3.params=s
+comment3.target=ConjuntString\ lecturaConjunt(java.util.Scanner)
+comment3.text=\n\ Retorna\ el\ ConjuntString\ de\ les\ paraules\ llegides\ del\ \n\ Scanner\ s,\ segons\ els\ separadors\ donats\ per\ defecte\ en\ \n\ ParseString\ (ParseString.SEPARADORS).\n\ @param\ s\ Scanner.\n\ @return\ el\ conjunt\ de\ paraules\ llegides\ del\ Scanner\ s.\n
+numComments=4

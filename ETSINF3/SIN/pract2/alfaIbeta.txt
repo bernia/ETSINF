@@ -1,0 +1,9 @@
+A l'experiment trobem tres combinacions d'alfa i beta interessants.
+
+       a       b     E     k   Ete       E%  I95inf%  I95sup%
+-------- ------- ----- ----- ----- -------- -------- --------
+     0.1     0.1     0    71   164     13.7     11.7     15.6
+       1       1     0    71   164     13.7     11.7     15.6
+   1e+01   1e+01     0    71   164     13.7     11.7     15.6
+
+El factor d'aprenentatge que triaria seria alfa = 0.1 i beta = 10000, perquè amb 0.1 s'entrenaria prou bé perquè els vectors s'actualitzen lentament, i amb beta = 10000 asegurem unes fronteres de decisió prou centrades.

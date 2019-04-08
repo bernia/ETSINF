@@ -1,0 +1,25 @@
+const zmq = require('zmq')
+let cli=[], req=[]
+let sc = zmq.socket('router') // frontend
+let sbw = zmq.socket('dealer')
+args = process.argv.slice(2)
+portFE = args[0]
+portBE = args[1]
+sc.bind('tcp://*:'+ portFE)
+sbw.bind('tcp://*:' + portBE)
+sc.on('message',(c,sep,m)=> {
+	sbw.send([c,sep,m])
+})
+sbw.on('message',(estat,c,sep,m)=> {
+	if(estat == 'torna') {
+	cli.push(c);
+	req.push(m);	
+	} else {
+		sc.send([c,'',m])
+		if(cli.length>0) {
+		sbw.send([cli.shift(),'',req.shift()])
+		}
+	}
+	
+})
+setTimeout(()=>{process.exit(0)}, 10000)

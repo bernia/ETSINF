@@ -1,0 +1,11 @@
+S'han entregat els arxius .out corresponents a les proves amb els conjunts de dades demanats.
+Als arxius es pot observar per a quins valors de alfa i beta es troba l'error mínim. A continuació els resultats demanats a la taula del butlletí.
+
+
+                 a       b     E     k   Ete       E%  I95inf%  I95sup%
+          -------- ------- ----- ----- ----- -------- -------- --------
+OCR_14x14      0.1   1e+02     0   125    13      4.3      2.0      6.6
+expressions    0.1   1e+03     0    57     2      3.0      0.0      7.1
+gauss2D        0.1   1e+02   878   200   108      9.0      7.4     10.6
+gender         0.1   1e+02     0    94    52      6.1      4.5      7.7
+videos       1e+01     0.1  1012   200   447     18.7     17.1     20.2

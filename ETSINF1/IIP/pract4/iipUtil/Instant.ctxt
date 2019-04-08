@@ -1,0 +1,32 @@
+#BlueJ class context
+comment0.params=h\ m
+comment0.target=Instant(int,\ int)
+comment0.text=\n\ \ Crea\ un\ <code>Instant</code>\ amb\ el\ valor\ de\n\ \ les\ hores\ i\ els\ minuts\ que\ rep\ com\ arguments,\n\ \ <code>h</code>\ i\ <code>m</code>\ respectivament.\n\n\ \ <p>\ Ha\ de\ complir-se\ la\ precondici\u00F3\:\ \n\ \ <code>0\ <\=\ h\ <\ 24,\ 0\ <\=\ m\ <\ 60</code>.\ </p>\n
+comment1.params=
+comment1.target=Instant()
+comment1.text=\n\ Crea\ un\ <code>Instant</code>\ amb\ el\ valor\ de\ l'instant\n\ actual\ UTC\ (temps\ universal\ coordinat).\n
+comment2.params=
+comment2.target=int\ getHores()
+comment2.text=Torna\ les\ <code>hores</code>\ de\ l\u2019Instant.
+comment3.params=
+comment3.target=int\ getMinuts()
+comment3.text=Torna\ els\ <code>minuts</code>\ de\ l\u2019Instant.
+comment4.params=hh
+comment4.target=void\ setHores(int)
+comment4.text=Actualitza\ les\ <code>hores</code>\ de\ l\u2019Instant.
+comment5.params=mm
+comment5.target=void\ setMinuts(int)
+comment5.text=Actualitza\ els\ <code>minuts</code>\ de\ l\u2019Instant.
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=Torna\ l'Instant\ en\ el\ format\ "<code>hh\:mm</code>".
+comment7.params=o
+comment7.target=boolean\ equals(java.lang.Object)
+comment7.text=\ Torna\ <code>true</code>\ sii\ <code>o</code>\ \u00E9s\ \n\ \ un\ objecte\ de\ la\ classe\ <code>Instant</code>\n\ \ i\ les\ seues\ <code>hores</code>\ i\ <code>minuts</code>\n\ \ coincideixen\ amb\ els\ de\ l'objecte\ en\ curs.\ \n
+comment8.params=
+comment8.target=int\ aMinuts()
+comment8.text=\ Torna\ el\ n\u00FAmero\ de\ minuts\ transcorreguts\ des\ de\ les\ 00\:00\ \n\ \ fins\ l'instant\ representat\ per\ l'objecte\ en\ curs.\n
+comment9.params=altre
+comment9.target=int\ compareTo(Instant)
+comment9.text=\ Compara\ cronol\u00F2gicament\ l'instant\ de\ l'objecte\ en\ curs\n\ \ amb\ el\ de\ l'objecte\ de\ la\ classe\ <code>Instant</code>\ \n\ \ referenciat\ per\ <code>altre</code>.\n\n\ \ <p>\n\ \ El\ resultat\ \u00E9s\ un\ valor\:\n\ \ <ul>\n\ \ \ \ \ <li>\ negatiu\ si\ l'instant\ de\ l'objecte\ en\ curs\ \n\ \ \ \ \ \u00E9s\ anterior\ al\ de\ <code>altre</code>,\ </li>\n\ \ \ \ \ <li>\ zero\ si\ s\u00F3n\ iguals,\ </li>\n\ \ \ \ \ <li>\ positiu\ si\ l'Instant\ de\ l'objecte\ en\ curs\ \n\ \ \ \ \ \u00E9s\ posterior\ al\ de\ <code>altre</code>.\ </li>\n\ \ </ul>\n\ \ </p>\n
+numComments=10

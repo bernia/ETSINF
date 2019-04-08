@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=x\ epsilon
+comment0.target=double\ sqrt(double,\ double)
+comment0.text=\n\ Torna\ l'arrel\ quadrada\ de\ x\ >\=\ 0,\ amb\ error\ epsilon\ >\ 0.\ \n\ @param\ x.\ El\ valor,\ que\ ha\ de\ ser\ igual\ o\ major\ que\ zero.\n\ @param\ epsilon.\ El\ valor\ de\ l'error\ m\u00E0xim.\n\ @return\ double.\ L\u2019arrel\ de\ x\ amb\ error\ m\u00E0xim\ epsilon.\n
+comment1.params=x
+comment1.target=double\ sqrt(double)
+comment1.text=\n\ Torna\ l'arrel\ quadrada\ de\ x\ >\=\ 0,\ amb\ error\ 1e-15.\ \n\ @param\ x.\ El\ valor,\ que\ ha\ de\ ser\ igual\ o\ major\ que\ zero.\n\ @return\ double.\ L\u2019arrel\ de\ x\ amb\ error\ m\u00E0xim\ 1e-15.\n
+comment2.params=z\ epsilon
+comment2.target=double\ logBase(double,\ double)
+comment2.text=\n\ Torna\ log(z),\ 1/2\ <\=\ z\ <\ 1,\ amb\ error\ epsilon\ >\ 0.\n\ @param\ z.\ El\ valor,\ que\ ha\ de\ ser\ igual\ o\ major\ que\ 1/2\ i\ menor\ que\ 1.\n\ @param\ epsilon.\ L'error\ m\u00E0xim\ amb\ valor\ positiu.\n\ @return\ double.\ El\ logaritme\ del\ valor\ x.\n
+comment3.params=x\ epsilon
+comment3.target=double\ log(double,\ double)
+comment3.text=\n\ Torna\ log(x),\ x\ >\ 0,\ amb\ error\ epsilon\ >\ 0.\n\ @param\ x.\ El\ valor\ del\ qual\ es\ vol\ calcular\ el\ log.\n\ @param\ epsilon.\ L'error\ m\u00E0xim,\ ambv\ \n
+comment4.params=x
+comment4.target=double\ log(double)
+comment4.text=\n\ Torna\ log(x),\ x\ >\ 0,\ amb\ error\ 1e-15.\n\ @param\ x.\ El\ valor\ del\ qual\ es\ vol\ calcular\ el\ log.\n
+numComments=5

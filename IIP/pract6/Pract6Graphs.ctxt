@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ test1()
+comment0.text=\ Dibuixar\ sin(x)\ i\ sin(x)/x\ amb\n\ x\ en\ [-1.0\:\ +PI*4]\ i\ f(x)\ en\ [-1.10\ \:\ +1.10].\n\ Representaci\u00F3\ mitjan\u00E7ant\ punts\ consecutius.\n
+numComments=1

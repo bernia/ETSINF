@@ -1,0 +1,24 @@
+#BlueJ package file
+objectbench.height=153
+objectbench.width=762
+package.editor.height=331
+package.editor.width=941
+package.editor.x=193
+package.editor.y=95
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+target1.editor.height=700
+target1.editor.width=900
+target1.editor.x=3
+target1.editor.y=25
+target1.height=50
+target1.name=Queue
+target1.naviview.expanded=true
+target1.showInterface=false
+target1.type=InterfaceTarget
+target1.typeParameters=<T>
+target1.width=80
+target1.x=200
+target1.y=80

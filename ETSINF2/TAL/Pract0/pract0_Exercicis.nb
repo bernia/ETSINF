@@ -1,0 +1,163 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.4' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5218,        155]
+NotebookOptionsPosition[      4688,        132]
+NotebookOutlinePosition[      5025,        147]
+CellTagsIndexPosition[      4982,        144]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Exercici2", " ", "[", 
+   RowBox[{"llista_", ",", " ", "ele_"}], "]"}], ":=", " ", 
+  RowBox[{"Module", " ", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"i", ",", "cont"}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"cont", " ", "=", " ", "0"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"For", "[", 
+      RowBox[{
+       RowBox[{"i", "=", "1"}], ",", " ", 
+       RowBox[{"i", "\[LessEqual]", " ", 
+        RowBox[{"Length", "[", "llista", "]"}]}], ",", " ", 
+       RowBox[{"i", "++"}], ",", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"llista", "[", 
+            RowBox[{"[", "i", "]"}], "]"}], " ", "\[Equal]", " ", "ele"}], 
+          ",", 
+          RowBox[{"cont", "++"}]}], "]"}], ";"}]}], " ", 
+      RowBox[{"(*", " ", 
+       RowBox[{
+       "Es", " ", "pot", " ", "no", " ", "posar", " ", "el", " ", "\"\<;\>\"",
+         " ", "perque", " ", "despres", " ", "es", " ", "tanca", " ", "el", 
+        " ", "for"}], "*)"}], "\[IndentingNewLine]", "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Return", " ", "[", "cont", "]"}], ";"}]}], 
+   "\[IndentingNewLine]", "]"}]}]], "Input",
+ CellChangeTimes->{{3.714290963439886*^9, 3.714291280522605*^9}, {
+  3.714291345322915*^9, 3.714291347915276*^9}, {3.714291541203958*^9, 
+  3.714291563646522*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Exercici2", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "a", ",", "b", ",", "s", ",", "a", ",", "g", ",", "c", ",", "a", ",", "v",
+      ",", "v", ",", "c"}], "}"}], ",", "a"}], "]"}]], "Input",
+ CellChangeTimes->{{3.714291290499359*^9, 3.7142913272263536`*^9}, {
+  3.714291359084257*^9, 3.714291359227083*^9}}],
+
+Cell[BoxData["3"], "Output",
+ CellChangeTimes->{{3.714291330975772*^9, 3.714291360431095*^9}}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Exercici5", "[", "llista_", "]"}], ":=", " ", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"aux", ",", " ", "i"}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"aux", " ", "=", " ", 
+      RowBox[{"{", "}"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"For", "[", 
+      RowBox[{
+       RowBox[{"i", "=", "1"}], ",", " ", 
+       RowBox[{"i", "\[LessEqual]", " ", 
+        RowBox[{"Length", "[", "llista", "]"}]}], ",", " ", 
+       RowBox[{"i", "++"}], ",", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{"!", 
+           RowBox[{"MemberQ", "[", 
+            RowBox[{"aux", ",", 
+             RowBox[{"llista", "[", 
+              RowBox[{"[", "i", "]"}], "]"}]}], "]"}]}], ",", " ", 
+          RowBox[{"AppendTo", "[", 
+           RowBox[{"aux", ",", " ", 
+            RowBox[{"llista", "[", 
+             RowBox[{"[", "i", "]"}], "]"}]}], "]"}]}], "]"}], ";"}]}], 
+      "\[IndentingNewLine]", "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Return", " ", "[", "aux", "]"}], ";"}]}], "\[IndentingNewLine]",
+    "]"}]}]], "Input",
+ CellChangeTimes->{{3.714291673359273*^9, 3.714291676687111*^9}, {
+  3.714291866897008*^9, 3.7142919088018827`*^9}, {3.71429198889853*^9, 
+  3.714292114612337*^9}, {3.714292148772744*^9, 3.7142922370778217`*^9}, {
+  3.714292402146124*^9, 3.7142924027919493`*^9}, {3.714292577594741*^9, 
+  3.714292580122635*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"Exercici5", "[", 
+    RowBox[{"{", 
+     RowBox[{"a", ",", "a", ",", "c", ",", "b", ",", "b"}], "}"}], "]"}], 
+   "\[IndentingNewLine]", "\[IndentingNewLine]"}]}]], "Input",
+ CellChangeTimes->{{3.7142924120798073`*^9, 3.714292440492392*^9}, {
+  3.714292504841248*^9, 3.714292537721106*^9}, {3.714292584969636*^9, 
+  3.714292599914118*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"a", ",", "c", ",", "b"}], "}"}]], "Output",
+ CellChangeTimes->{3.714292655178257*^9}]
+}, Open  ]],
+
+Cell[BoxData["\[IndentingNewLine]"], "Input",
+ CellChangeTimes->{{3.714292243212953*^9, 3.714292275846202*^9}, {
+   3.7142923336872177`*^9, 3.714292336695009*^9}, 3.714292387255423*^9}]
+},
+WindowSize->{1011, 1098},
+WindowMargins->{{Automatic, 287}, {0, Automatic}},
+FrontEndVersion->"10.4 for Linux x86 (64-bit) (April 11, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1403, 34, 165, "Input"],
+Cell[CellGroupData[{
+Cell[1986, 58, 342, 8, 32, "Input"],
+Cell[2331, 68, 94, 1, 32, "Output"]
+}, Open  ]],
+Cell[2440, 72, 1482, 35, 165, "Input"],
+Cell[CellGroupData[{
+Cell[3947, 111, 409, 9, 99, "Input"],
+Cell[4359, 122, 125, 3, 32, "Output"]
+}, Open  ]],
+Cell[4499, 128, 185, 2, 55, "Input"]
+}
+]
+*)
+

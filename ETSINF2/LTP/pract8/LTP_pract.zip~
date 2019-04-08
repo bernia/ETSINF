@@ -1,0 +1,2 @@
+tab(0).
+tab(N):- put(32), N is N - 1, tab(N).

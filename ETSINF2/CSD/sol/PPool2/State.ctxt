@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=boolean\ iwExit()
+comment1.params=ant
+comment1.target=int\ dyn_test(State)
+comment2.params=
+comment2.target=int\ test()
+comment3.params=K\ I
+comment3.target=State(int,\ int)
+comment4.params=stat
+comment4.target=State(State)
+comment5.params=stat\ idx\ x
+comment5.target=State(State,\ int,\ int)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=b
+comment7.target=void\ draw(Box)
+comment8.params=i
+comment8.target=int\ get(int)
+numComments=9

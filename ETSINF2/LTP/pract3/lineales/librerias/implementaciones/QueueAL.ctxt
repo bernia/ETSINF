@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=QueueAL()
+comment0.text=The\ object\ constructor
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\ It\ returns\ the\ content\ of\ the\ queue\n\ \ according\ to\ the\ following\ format\:\n\ \ \ <-\ item0\ <-\ item1\ <-\ item2\ <-\ ...\ <-\ itemN\n\ \ where\ N\ \=\ size()\ -\ 1\n\ \ and\ each\ item\ is\ concatenated\n\ \ according\ to\ the\ format\ defined\ in\ its\ type\n\ \ @return\ the\ content\ of\ the\ queue\n
+comment2.params=e
+comment2.target=void\ enqueue(java.lang.Object)
+comment2.text=\ Inserts\ the\ element\ at\ the\ end\ of\ the\ queue\n\ \ @param\ e\ element\ to\ be\ inserted\n
+comment3.params=
+comment3.target=java.lang.Object\ dequeue()
+comment3.text=\ Queries\ and\ extracts\ the\ first\ element,\n\ \ only\ if\ the\ queue\ is\ not\ empty\n\ \ @return\ the\ first\ element\n
+comment4.params=
+comment4.target=int\ size()
+comment4.text=\ Queries\ the\ number\ of\ elements\ of\ the\ queue\n\ \ @return\ the\ number\ of\ elements\n
+comment5.params=
+comment5.target=java.lang.Object\ first()
+comment5.text=\ Queries\ the\ first\ element,\ in\ order\ of\ insertion,\n\ \ only\ if\ the\ queue\ is\ not\ empty\n\ \ @return\ the\ first\ element\n
+comment6.params=
+comment6.target=boolean\ isEmpty()
+comment6.text=\ Verifies\ if\ the\ queue\ is\ empty\n\ \ @return\ true\ iif\ the\ queue\ is\ empty\n
+numComments=7
